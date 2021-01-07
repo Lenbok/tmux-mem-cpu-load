@@ -148,7 +148,7 @@ The full usage::
   -g <value>, --graph-lines <value>
           Set how many lines should be drawn in a graph. Default: 10
   -m <value>, --mem-mode <value>
-        Set memory display mode. 0: Default, 1: Free memory, 2: Usage percent.
+        Set memory display mode. 0: None, 1: Free memory, 2: Usage percent, 3: Default.
   -t <value>, --cpu-mode <value>
         Set cpu % display mode. 0: Default max 100%, 1: Max 100% * number of threads.
   -a <value>, --averages-count <value>

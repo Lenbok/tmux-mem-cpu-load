@@ -125,7 +125,7 @@ void print_help()
     << "-g <value>, --graph-lines <value>\n"
     << "\tSet how many lines should be drawn in a graph. Default: 10\n"
     << "-m <value>, --mem-mode <value>\n"
-    << "\tSet memory display mode. 0: Default, 1: Free memory, 2: Usage percent.\n"
+    << "\tSet memory display mode. 0: None, 1: Free memory, 2: Usage percent, 3: Default.\n"
     << "-t <value>, --cpu-mode <value>\n"
     << "\tSet cpu % display mode. 0: Default max 100%, 1: Max 100% * number of threads. \n"
     << "-a <value>, --averages-count <value>\n"

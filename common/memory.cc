@@ -30,6 +30,10 @@ std::string mem_string( const MemoryStatus & mem_status,
   bool use_powerline_right )
 {
   std::ostringstream oss;
+  if( mode == MEMORY_MODE_NONE )
+  {
+    return oss.str();
+  }
   // Change the percision for floats, for a pretty output
   oss.precision( 2 );
   oss.setf( std::ios::fixed | std::ios::right );
